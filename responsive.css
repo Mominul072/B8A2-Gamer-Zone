@@ -1,0 +1,79 @@
+@media screen and (max-width: 400px) {
+    .nav-container{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .logo-container{
+        flex-direction: column;
+        width: 100%;
+
+    }
+    .nav-item-container,.game-container,.online-games-container,.features {
+        flex-direction: column;
+       
+    }
+    
+    .nav-item-container a{
+        padding: 20px;
+    }
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-text p{
+        font-size: 50px;
+    }
+    .banner-text> .point{
+       padding-left: 0;
+       padding-top: 20px;
+    }
+    .banner-img img{
+        height: 100%;
+        width: 100%;
+        margin-right: 40px;
+    }
+    .game-text >h2{
+        font-size: 30px;
+    }
+    .game-text> .purpose{
+        font-size: 10px;
+    }
+   .online-games-container{
+    padding-left:100px;
+   }
+   .online_games-title ,.funny ,.features-text>h2{
+    font-size: 30px;
+   }
+   .features-text{
+    width: 20%;
+   }
+   .features-text span{
+    font-size: 30px;
+   }
+   .features-img{
+    width: 10px;
+   }
+   .icon-container{
+    width: 500px;
+   }
+   .icon> span{
+    font-size: 10px;
+   }
+  
+   .footer-logo{
+    grid-row: 1/13;
+   }
+   .footer-description{
+    flex-wrap: wrap;
+    grid-row: 5/13;
+    
+   }
+   .footer-icon{
+    grid-row:11/13;
+    padding-left: 40px;
+   }
+}
+
+
+
+
+

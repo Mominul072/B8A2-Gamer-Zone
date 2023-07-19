@@ -13,9 +13,10 @@
     min-height: 50px;
     display: flex;
     align-items: center;
-    /* max-width: 1400px; */
+    max-width: 1400px;
     margin: 0 auto;
     background: #FFF;
+    justify-content: center;
    
 }
 .logo-container{
@@ -201,6 +202,8 @@
    
 }
 /* banner section ends here */
+
+/* we are gamer section starts here */
 .game-section{
     margin-top: 100px;
    
@@ -290,6 +293,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
+    /* color: #0B0223; */
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
@@ -323,27 +327,23 @@
   /* features section starts here */
   .features{
     /* border: 2px solid red; */
-    margin-top: 130px;
-    margin-bottom: 200px;
     display: flex;
-    justify-content: space-between;
-    /* gap: 500px; */
-   
-    align-items: center;
-   
+    width: 1440px;
+    justify-content: space-evenly;
+    
   }
 .features-text{
-  
-    /* border: 2px solid green; */
-    padding: 40px;
-    margin-left: 20px;
-    text-align: right;
+    margin-top: 200px;
+    width: 40%;
     font-size: 30px;
     font-weight: 700; 
+    text-align: right; 
+    padding-right: 30%;
+ 
 }
 .features-text span{
     color: #F948B2;
-    text-align: right;
+    
     font-size: 48px;
     font-weight: 700;
  
@@ -359,10 +359,8 @@
 }
 
 .features-img{
-    /* border: 2px solid rgb(0, 15,  128); */
-    height:100%;  
+    width: 40%;
 }
-
 
 .features-img .small-img{
     border-radius: 8px;
