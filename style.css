@@ -310,7 +310,55 @@
   /* online-games section ends here  */
 
 
+  /* icon-section starts here  */
+
+
+.icon-container{
+    /* border: 2px solid green; */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+.icon-1 ,.icon-2{
+    
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding:10px 20px
+    
+}
+.icon{
+    /* border: 2px solid blue; */
+    margin: 10 50px;
+    border-radius: 40px;
+    padding: 20px 30px;
+  
+}
+
+.icon img{
+    height: 30px;
+    width: 30px;
+}
+
+.icon> span{
+   
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 5px;
+
+}
+.icon:hover{
+  
+    border: 2px solid #FF42A5 ;
+    color: #FF42A5;
+
+}
+/* icon-section ends here */
+
+
+
 /* footer section starts here */
+
 
 .game-footer{
     display: grid;
@@ -343,6 +391,11 @@
     text-align: center;
     display: flex;
     gap: 15px;
+}
+.footer-icon .fa-brands{
+    width: 57.13px;
+    height: 40px;
+    flex-shrink: 0;
 }
 .footer-condition{
 
