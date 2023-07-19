@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+*{
+    font-family: Work Sans;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .nav-container{
     /* border: 2px solid green; */
     min-height: 50px;
@@ -285,7 +295,7 @@
     text-align: center;
    
   }
-  .picture:hover .image {
+  .picture:hover  .image{
     opacity: 0.3;
     border: 3px solid #FF42A5;
     border-radius: 18px;
@@ -301,7 +311,7 @@
     font-size: 20px;
     padding: 16px 32px;
   }
-.online-games>p{
+.online-games> p{
     color: #534C64;
     font-size: 20px;
     font-weight: 500;
@@ -310,12 +320,65 @@
   /* online-games section ends here  */
 
 
+  /* features section starts here */
+  .features{
+    /* border: 2px solid red; */
+    margin-top: 130px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 500px; */
+   
+    align-items: center;
+   
+  }
+.features-text{
+  
+    /* border: 2px solid green; */
+    padding: 40px;
+    margin-left: 20px;
+    text-align: right;
+    font-size: 30px;
+    font-weight: 700; 
+}
+.features-text span{
+    color: #F948B2;
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+ 
+}
+.features-text p{
+    margin-top: 20px;
+    color: #534C64;
+    text-align: right;  
+    font-size: 18px;  
+    font-weight: 400;
+    
+
+}
+
+.features-img{
+    /* border: 2px solid rgb(0, 15,  128); */
+    height:100%;  
+}
+
+
+.features-img .small-img{
+    border-radius: 8px;
+    position:relative;
+    bottom: 200px;
+    right: 200px;
+     
+}
+  /* features section ends here */
+
+
   /* icon-section starts here  */
 
 
 .icon-container{
     /* border: 2px solid green; */
-    margin-top: 100px;
     margin-bottom: 100px;
     
 }
@@ -324,14 +387,14 @@
     display: flex;
     justify-content: center;
     margin: 10px;
-    padding:10px 20px
+    padding:10px 10px
     
 }
 .icon{
     /* border: 2px solid blue; */
     margin: 10 50px;
     border-radius: 40px;
-    padding: 20px 30px;
+    padding: 20px 20px;
   
 }
 
@@ -361,6 +424,8 @@
 
 
 .game-footer{
+    margin-top: 100px;
+    
     display: grid;
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: repeat(12,1fr);
@@ -372,7 +437,9 @@
     color: #FFF;
     grid-column: 1/13;
     margin:2px;
+    padding-top: 50px;
     text-align: center;
+   
 }
 .footer-description{
     color: #FFF;
@@ -382,6 +449,7 @@
     text-align: center;
     display: flex;
     gap: 15px;
+    padding:15px 20px;
 }
 .footer-icon {
     color: #FFF;
