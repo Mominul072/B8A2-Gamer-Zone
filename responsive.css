@@ -1,3 +1,5 @@
+
+/* mobile version */
 @media screen and (max-width: 400px) {
     .nav-container{
         flex-direction: column;
@@ -87,8 +89,62 @@
     height: 20%;
   }
 }
+
+/* tablet version */
 @media screen and (max-width: 992px) {
+    nav{
+        width: 80%;
+    }
+    .banner-container{
+        width: 80%;
+    }
+    .banner-text h1{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .banner-text .point h5{
+        font-size: 15px;
+       
+    }
+    .game-container{
+        flex-direction: column;
+    }
+    .online-games-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* margin: 0 auto; */
+        margin-left: 40px;
+        justify-content: center;
+    }
+    .features{
+        flex-direction: column;
+    }
+    .features-text{
+        padding-bottom: 50px;
+    }
+    .features-img{
+        margin-bottom: 20px;
+        width:40%;
+    }
+    .features-img .relative-img{
+        width: 20%;
+    }
+    .icon-container{
+        width: 10%;
+        display: grid;
+        /* flex-direction: row; */
+        grid-template-columns:repeat(3,1fr);
+        align-items: center;
+        justify-content: center;
+    }
+    .game-footer{
+        width: 100%;
+        font-size: small;
+        padding: 2px;
+        
+    }
     
+   
 }
 
 
