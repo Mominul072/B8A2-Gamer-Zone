@@ -326,48 +326,65 @@
 
   /* features section starts here */
   .features{
-    /* border: 2px solid red; */
+    /* border: 2px solid green; */
     display: flex;
+    margin: 0 auto;
     width: 1440px;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     
   }
 .features-text{
-    margin-top: 200px;
-    width: 40%;
-    font-size: 30px;
-    font-weight: 700; 
+   /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
     text-align: right; 
-    padding-right: 30%;
+    width: 30%;
  
 }
 .features-text span{
     color: #F948B2;
-    
     font-size: 48px;
     font-weight: 700;
- 
 }
+.features-text h2{
+    color: #050a01;
+    font-size: 48px;
+    font-weight: 700;
+}
+
 .features-text p{
     margin-top: 20px;
     color: #534C64;
     text-align: right;  
-    font-size: 18px;  
+    font-size: 20px;  
     font-weight: 400;
     
 
 }
 
 .features-img{
-    width: 40%;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: row-reverse;
+    width: 70%;
 }
 
-.features-img .small-img{
+.features-img .big-img{
     border-radius: 8px;
     position:relative;
-    bottom: 200px;
-    right: 200px;
-     
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    height: 100%;
+   
+} 
+.features-img .small-img{
+    position: absolute;
+    right: 30rem;
+    bottom: -10rem;
+    
 }
   /* features section ends here */
 
@@ -376,34 +393,31 @@
 
 
 .icon-container{
+    width: 1440px;
     /* border: 2px solid green; */
-    margin-bottom: 100px;
-    
-}
-.icon-1 ,.icon-2{
-    
+    margin: 170px auto 20px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    margin: 10px;
-    padding:10px 10px
+    align-content: center;
+    gap: 40px;
+    height: 400px;
     
-}
-.icon{
-    /* border: 2px solid blue; */
-    margin: 10 50px;
-    border-radius: 40px;
-    padding: 20px 20px;
-  
 }
 
-.icon img{
-    height: 30px;
-    width: 30px;
-}
+.icon{
+    /* border: 2px solid blue;  */
+    margin: 10 50px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 0; 
+} 
 
 .icon> span{
    
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
     padding-left: 5px;
 
@@ -422,8 +436,9 @@
 
 
 .game-footer{
-    margin-top: 100px;
-    
+    /* border: 2px solid green; */
+    margin: 0 auto;
+    max-width: 1440px;
     display: grid;
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: repeat(12,1fr);
